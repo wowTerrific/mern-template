@@ -1,7 +1,19 @@
 1.) Create Front-End
+  - SEO : react-helmet
+  - Header & Nav
+  - Footer
+  - Homepage basic design
+  - Landing Page basic design
+  - Contact Page / Form
+  - Blog Design
+  - E-Commerce Design
+  - Appointment Scheduling Design
 
-2.) Serve
-
-3.) Database
+2.) Serve, CMS, Database
+  - Contact Page Form Functionality & Email
+  - CMS: Strapi?
+  - Blog functionality
+  - E-Commerce functionality
+  - Appointment Scheduling functionality
 
 4.) Expand ReactJS component library
