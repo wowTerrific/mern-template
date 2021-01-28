@@ -1,0 +1,7 @@
+1.) Create Front-End
+
+2.) Serve
+
+3.) Database
+
+4.) Expand ReactJS component library
