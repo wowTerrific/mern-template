@@ -5,6 +5,7 @@
   - Homepage basic design
   - Landing Page basic design
   - Contact Page / Form
+  - Add Custom 404 page
   - Blog Design
   - E-Commerce Design
   - Appointment Scheduling Design
