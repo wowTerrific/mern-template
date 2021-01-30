@@ -8,8 +8,9 @@ const Home = () => {
 				<title>{ Site.name }</title>
 				<meta name="description" content="This is a test Homepage Description" />
 			</Helmet>
-			
-			<h1>Home</h1>
+			<main>
+			    <h1>Home</h1>
+			</main>
 		</>
 	)
 }

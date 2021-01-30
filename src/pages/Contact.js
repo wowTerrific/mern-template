@@ -8,8 +8,9 @@ const Contact = () => {
 				<title>Contact | { Site.name }</title>
 				<meta name="description" content="This is a test Contact Description" />
 			</Helmet>
-			
-			<h1>Contact</h1>
+			<main>
+			    <h1>Contact</h1>
+			</main>
 		</>
 	)
 }

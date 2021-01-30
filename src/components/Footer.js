@@ -1,10 +1,13 @@
 // import { Link } from "react-router-dom";
+import Container from "./Container";
 
 const Footer = () => {
 	
 	return (
 		<footer>
-			<h4>Footer</h4>
+			<Container>
+				<h4>Footer</h4>
+			</Container>
 		</footer>
 	)
 }

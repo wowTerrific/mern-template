@@ -8,8 +8,9 @@ const About = () => {
 				<title>About | { Site.name }</title>
 				<meta name="description" content="This is a test About Description" />
 			</Helmet>
-			
-			<h1>About</h1>
+			<main>
+			    <h1>About</h1>
+			</main>
 		</>
 	)
 }

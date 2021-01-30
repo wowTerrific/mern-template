@@ -1,1 +1,130 @@
-body {color: white; background: black;}
+:root {
+    --black: #000;
+    --white: #fff;
+    --primary: #0cce6b;
+    --secondary: #376996;
+}
+
+* {box-sizing: border-box;}
+
+html {
+  font-size: 18px;
+}
+
+body {
+    background: var(--white);
+    color: var(--black);
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3, h4, h5, h6 {
+    font-size: 1.25rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+
+/************** Header & Nav *********************/
+header {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    width: 100%;
+    padding: 5px 0;
+}
+
+header .shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+}
+
+#nav-container {
+    position: relative;
+}
+
+#nav-btn-mobile {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.nav-btn-bar {
+    background: var(--black);
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    border-radius: 3px;
+}
+
+nav {
+    padding-top: 30px;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.2s;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*
+#nav-btn-mobile {display: none;}
+@media only screen and (max-width: 767px) {
+    #nav-btn-mobile {
+        display: block;
+    }
+}*/
+
+
+
+/************** Main *********************/
+
+main {
+    padding-top: 5%; /* Temporary */
+    height: auto;
+    min-height: 75vh;
+}
+
+
+/************** Footer *********************/
+footer {
+    border-top: 10px solid black;
+}

@@ -1,9 +1,14 @@
+import logo from "../images/template-logo.png";
+import Container from "./Container";
+
 const Header = ( props ) => {
 
 	return (
 		<header>
-			<h1>Eyeee</h1>
-			{props.children}
+			<Container>
+				<img className="logo" src={logo} alt="logo" />
+				{props.children}
+			</Container>
 		</header>
 	)
 }

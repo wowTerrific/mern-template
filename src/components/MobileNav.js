@@ -2,16 +2,13 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 
-const Nav = () => {
+const MobileNav = () => {
 
 	const [showMobile, setShowMobile] = useState(false)
 
-
-// look up ReactJS useEffect to handle resize
 // check view-width to see if <= 767px
 // if true - show mobile nav component
 // else show current
-
 
 
 	return (
@@ -33,4 +30,4 @@ const Nav = () => {
 	)
 }
 
-export default Nav
+export default MobileNav
