@@ -1,5 +1,6 @@
 import Site from "../_site_var"
 import { Helmet } from "react-helmet";
+import "./noroute.css";
 
 const NoRoute = () => {
 
@@ -10,7 +11,9 @@ const NoRoute = () => {
 				<meta name="description" content="This is a test 404 Description" />
 			</Helmet>
 			<main>
-		        <h1>That's a 404, dawg</h1>
+				<div className="noroute-cont">
+					<h1>That's a 404, dawg</h1>
+				</div>
 		    </main>
 		</>
 	)

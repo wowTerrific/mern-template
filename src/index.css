@@ -40,7 +40,10 @@ header {
     z-index: 900;
     top: 0;
     width: 100%;
+	height: 75px;
     padding: 5px 0;
+	background: var(--white);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 header .shadow {
@@ -51,11 +54,12 @@ header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+	align-items: center;
 }
 
 header .logo {
-    width: 100%;
-    max-width: 250px;
+    width: 67%;
+    max-width: 150px;
     display: block;
 }
 
@@ -80,10 +84,6 @@ header .logo {
     box-shadow: 0 0 2px var(--white);
 }
 
-#desk-nav {
-    padding-top: 30px;
-}
-
 #desk-nav ul {
     padding: 0;
     display: flex;
@@ -94,7 +94,7 @@ header .logo {
     margin-left: 40px;
 }
 
-nav ul li a {
+nav ul a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -116,9 +116,9 @@ nav ul li a:hover {
   z-index: 950;
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(to bottom, var(--secondary), var(--primary));
   text-align: center;
-  padding: 10% 15px 15px 15px;
+  padding: 79px 15px 15px 15px;
 }
 
 #mobile-nav li {
@@ -148,13 +148,14 @@ nav ul li a:hover {
 /************** Main *********************/
 
 main {
-    padding-top: 5%; /* Temporary */
+    margin-top: 75px;
     height: auto;
     min-height: 75vh;
 }
-
 
 /************** Footer *********************/
 footer {
     border-top: 10px solid black;
 }
+
+

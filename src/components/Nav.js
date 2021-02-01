@@ -7,6 +7,10 @@ const Nav = () => {
 	const [showMobile, setShowMobile] = useState(false);
 	const [navHide, setNavHide] = useState('hide-nav')
 
+	const newPage = () => {
+		setShowMobile(false);
+		setNavHide('hide-nav');
+	}
 
 	return (
 	    <div id="nav-container">
@@ -31,10 +35,10 @@ const Nav = () => {
 						
 						<nav id="mobile-nav" className={ navHide }>
 							<ul>
-								<Link to="/"><li>Home</li></Link>
-								<Link to="/services"><li>Services</li></Link>
-								<Link to="/about"><li>About</li></Link>
-								<Link to="/contact"><li>Contact</li></Link>
+								<Link to="/" onClick={newPage}><li>Home</li></Link>
+								<Link to="/services" onClick={newPage}><li>Services</li></Link>
+								<Link to="/about" onClick={newPage}><li>About</li></Link>
+								<Link to="/contact" onClick={newPage}><li>Contact</li></Link>
 							</ul>
 						</nav>
 		</div>

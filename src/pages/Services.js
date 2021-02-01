@@ -1,5 +1,6 @@
 import Site from "../_site_var"
 import { Helmet } from "react-helmet";
+import Container from "../components/Container";
 
 const Services = () => {
 	return (
@@ -9,7 +10,9 @@ const Services = () => {
 				<meta name="description" content="This is a test Services Description" />
 			</Helmet>
 			<main>
-			    <h1>Services</h1>
+				<Container>
+					<h1>Services</h1>
+				</Container>
 			</main>
 		</>
 	)
