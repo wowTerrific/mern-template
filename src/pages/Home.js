@@ -1,7 +1,9 @@
 import Site from "../_site_var"
 import { Helmet } from "react-helmet";
 import Container from "../components/Container";
+import FlexContainer from "../components/FlexContainer";
 
+import duk from "../images/duk-min.png";
 import "./home.css";
 
 const Home = () => {
@@ -14,9 +16,13 @@ const Home = () => {
 			<main>
 				<section className="hero">
 					<Container>
-						<p>***Floating Image w/ drop shadow</p>
-						<h1>Home</h1>
-						<p>***Typing Animation Component Goes Here</p>
+						<FlexContainer flexID="hero-flex">
+							<img src={duk} alt="duck" style={{width: "67%", height: "auto", maxWidth: "700px" }} className="float" />
+							<div className="hero-content">
+								<h1>Home</h1>
+								<p>***Typing Animation Component Goes Here</p>
+							</div>
+						</FlexContainer>
 					</Container>
 				</section>
 				<section className="intro">
