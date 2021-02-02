@@ -14,7 +14,9 @@ const Home = () => {
 			<main>
 				<section className="hero">
 					<Container>
+						<p>***Floating Image w/ drop shadow</p>
 						<h1>Home</h1>
+						<p>***Typing Animation Component Goes Here</p>
 					</Container>
 				</section>
 				<section className="intro">
@@ -41,6 +43,8 @@ const Home = () => {
 				<section className="seo">
 					<Container>
 						<h3>Even more detailed information w/ SEO saturation</h3>
+						<p>						###################################################################################################################################################################################################################################################################################################################################
+						</p>
 					</Container>
 				</section>
 			</main>
