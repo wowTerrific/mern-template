@@ -17,6 +17,32 @@ const Home = () => {
 						<h1>Home</h1>
 					</Container>
 				</section>
+				<section className="intro">
+					<Container>
+						<h2>Intro Section</h2>
+						<p>Add large fancy graphic</p>
+					</Container>
+				</section>
+				<section className="spread">
+					<Container>
+						<h3>Flex-Box Spread Section</h3>
+					</Container>
+				</section>
+				<section className="info">
+					<Container>
+						<h3>Slightly more detail about services/offers</h3>
+					</Container>
+				</section>
+				<section className="cta">
+					<Container>
+						<h3>Call to action(s)</h3>
+					</Container>
+				</section>
+				<section className="seo">
+					<Container>
+						<h3>Even more detailed information w/ SEO saturation</h3>
+					</Container>
+				</section>
 			</main>
 		</>
 	)
