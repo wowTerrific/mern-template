@@ -2,7 +2,7 @@
 
 .hero {
 	padding: 125px 0 125px 0;
-	background: url('../images/hero-bg.svg');
+	background: url('../images/test-lattice.svg'), url('../images/hero-bg.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom center;
