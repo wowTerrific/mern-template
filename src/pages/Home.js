@@ -2,9 +2,12 @@ import Site from "../_site_var"
 import { Helmet } from "react-helmet";
 import Container from "../components/Container";
 import FlexContainer from "../components/FlexContainer";
+import TypeWriter from "../components/TypeWriter";
+import "../components/typewriter.css";
 
 import duk from "../images/duk-min.png";
 import "./home.css";
+
 
 const Home = () => {
 	return (
@@ -20,7 +23,11 @@ const Home = () => {
 							<img src={duk} alt="duck" style={{width: "67%", height: "auto", maxWidth: "700px" }} className="float" />
 							<div className="hero-content">
 								<h1>Home</h1>
-								<p>***Typing Animation Component Goes Here</p>
+								<TypeWriter write={[
+									"one", 
+									"two", 
+									"three"
+								]} />
 							</div>
 						</FlexContainer>
 					</Container>

@@ -2,7 +2,7 @@
 
 .hero {
 	padding: 125px 0 125px 0;
-	background: url('../images/test-lattice.svg'), url('../images/hero-bg.svg');
+	background: linear-gradient(155deg, var(--primary), transparent 30%), url('../images/test-lattice.svg'), url('../images/hero-bg.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom center;
@@ -20,7 +20,6 @@
 
 .float {
 	position: relative;
-	
 	animation: float 1s ease-out infinite alternate;
 }
 
@@ -31,4 +30,7 @@
 
 .hero-content {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
