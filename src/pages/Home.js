@@ -24,9 +24,9 @@ const Home = () => {
 							<div className="hero-content">
 								<h1>Home</h1>
 								<TypeWriter write={[
-									"one", 
-									"two", 
-									"three"
+									"First Sentence", 
+									"Second Sentence", 
+									"Last One"
 								]} />
 							</div>
 						</FlexContainer>

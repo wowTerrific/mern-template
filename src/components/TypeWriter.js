@@ -11,22 +11,27 @@ const TypeWriter = ( props ) => {
 	useEffect( () => {
 		const index = setTimeout(() => {
 			setArrayIndex(arrayIndex + 1);
-			console.log(arrayIndex);
 		}, 3000);
-
-		return () => {clearTimeout(index); console.log('cleartimeout run');}
-		
+		return () => clearTimeout(index)
 	}, [writeArray]);
+
 
 	useEffect( () => {
 		const changeArray = setTimeout( () => {
+			setAnimName('typewrite');
 			arrayIndex < initArray.length && setWriteArray(initArray[arrayIndex]);
-			console.log(writeArray);
 		},3500);
-		
-		return () => {clearTimeout(changeArray); console.log('cleartimeout run');}
-		
+		return () => clearTimeout(changeArray)
 	}, [arrayIndex]);
+	
+
+	useEffect( () => {
+		const changeAnim = setTimeout( () => {
+			arrayIndex < initArray.length -1 && setAnimName('typewrite typedelete');
+		},3000);
+		return () => clearTimeout(changeAnim)
+	}, [writeArray]);
+
 
 	return (
 		<>
