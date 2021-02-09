@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 
 const TypeWriter = ( props ) => {
@@ -10,27 +9,24 @@ const TypeWriter = ( props ) => {
 	const [ arrayIndex, setArrayIndex ] = useState(0);
 
 	useEffect( () => {
-		setTimeout( () => {
-			changeWrite();
+		const index = setTimeout(() => {
+			setArrayIndex(arrayIndex + 1);
+			console.log(arrayIndex);
 		}, 3000);
+
+		return () => {clearTimeout(index); console.log('cleartimeout run');}
+		
 	}, [writeArray]);
 
-	const changeWrite = () => {
-		console.log(arrayIndex);
-	  if (arrayIndex < initArray.length) {
-		 setArrayIndex(arrayIndex + 1) 
-		 setWriteArray(initArray[arrayIndex]);
-	  }
-	};
-	
-	// setWriteArray
-	// pause
-	// set anim name to delete
-	// pause
-	// setWriteArray & setAnimName to write
-	
-	// loop starting at step 2
-	
+	useEffect( () => {
+		const changeArray = setTimeout( () => {
+			arrayIndex < initArray.length && setWriteArray(initArray[arrayIndex]);
+			console.log(writeArray);
+		},3500);
+		
+		return () => {clearTimeout(changeArray); console.log('cleartimeout run');}
+		
+	}, [arrayIndex]);
 
 	return (
 		<>
