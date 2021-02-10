@@ -1,10 +1,10 @@
 1.) Create Front-End
-  - SEO : react-helmet
-  - Header & Nav
+xx  - SEO : react-helmet
+xx  - Header & Nav
   - Footer
   - Homepage basic design
   - Landing Page basic design
-  - Contact Page / Form
+xx  - Contact Page / Form
   - Add Custom 404 page
   - Blog Design
   - E-Commerce Design
