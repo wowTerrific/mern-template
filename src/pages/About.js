@@ -10,9 +10,11 @@ const About = () => {
 				<meta name="description" content="This is a test About Description" />
 			</Helmet>
 			<main>
-				<Container>
-					<h1>About</h1>
-				</Container>
+				<section className="hero">
+					<Container>
+						<h1>About Us</h1>
+					</Container>
+				</section>
 			</main>
 		</>
 	)

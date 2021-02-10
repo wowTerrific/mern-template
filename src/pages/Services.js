@@ -10,9 +10,11 @@ const Services = () => {
 				<meta name="description" content="This is a test Services Description" />
 			</Helmet>
 			<main>
-				<Container>
-					<h1>Services</h1>
-				</Container>
+				<section className="hero">
+					<Container>
+						<h1>Services</h1>
+					</Container>
+				</section>
 			</main>
 		</>
 	)

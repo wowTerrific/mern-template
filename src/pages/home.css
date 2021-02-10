@@ -1,12 +1,5 @@
 * {box-sizing: border-box;}
 
-.hero {
-	padding: 125px 0 125px 0;
-	background: linear-gradient(155deg, var(--primary), transparent 30%), url('../images/test-lattice.svg'), url('../images/hero-bg.svg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-}
 
 #hero-flex {
 	justify-content: space-around;

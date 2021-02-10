@@ -37,11 +37,32 @@ p {
 	margin-bottom: 20px;
 }
 
+section {
+	margin-bottom: 3%;
+}
+
 .container {
     width: 100%;
     max-width: 1600px;
     margin: auto;
     padding: 0 15px;
+}
+
+.btn-primary {
+	width: 100%;
+	max-width: 350px;
+	background: transparent;
+	color: var(--secondary);
+	border: 3px solid var(--secondary);
+	font-weight: 600;
+	font-size: 1.25rem;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background: var(--secondary);
+	color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -51,7 +72,17 @@ p {
 		justify-content: center;
 		align-items: center;
 	}
+	.flex-item-50 {
+		width: 50%;
+		padding-right: 25px;
+	}
+	div.form {
+		border-left: 2px solid #aaa;
+		padding-left: 25px;
+	}
 }
+
+
 
 
 /************** Header & Nav *********************/
@@ -193,6 +224,20 @@ footer {
 	border-radius: 5% 5% 0 0;
 	height: auto;
 	min-height: 10vh
+}
+
+/************** Standard Hero *********************/
+
+.hero {
+	padding: 125px 0 125px 0;
+	background: linear-gradient(155deg, var(--primary), transparent 30%), url('images/test-lattice.svg'), url('images/hero-bg.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	color: white;
+}
+.hero h1 {
+	text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
 
