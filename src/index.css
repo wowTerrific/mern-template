@@ -3,6 +3,7 @@
     --white: #fff;
     --primary: #0cce6b;
     --secondary: #376996;
+	--accent: #a756ce;
 }
 
 * {box-sizing: border-box;}
@@ -41,6 +42,20 @@ section {
 	margin-bottom: 3%;
 }
 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
 .container {
     width: 100%;
     max-width: 1600px;
@@ -49,10 +64,11 @@ section {
 }
 
 .btn-primary {
+	display: block;
 	width: 100%;
 	max-width: 350px;
-	background: transparent;
-	color: var(--secondary);
+	background: var(--secondary);
+	color: var(--white);
 	border: 3px solid var(--secondary);
 	font-weight: 600;
 	font-size: 1.25rem;
@@ -61,16 +77,17 @@ section {
 }
 
 .btn-primary:hover {
-	background: var(--secondary);
-	color: white;
+	background: var(--white);
+	color: var(--secondary);
 }
+
+
 
 @media only screen and (min-width: 768px) {
 	.flex-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
 	}
 	.flex-item-50 {
 		width: 50%;
@@ -240,4 +257,33 @@ footer {
 	text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
+.hero a {text-decoration: none;}
+
+.hero hr {
+    border: none;
+    width: 100px;
+    height: 2px;
+    background: white;
+    margin: 10px auto 20px 0;
+	box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.7);
+}
+
+.btn-hero {
+	display: block;
+	text-decoration: none!important;
+	background: var(--accent);
+	color: var(--white);
+	border: none;
+	font-weight: 600;
+	font-size: 1.25rem;
+	padding: 10px 20px;
+	box-shadow: -2px 2px 0 rgba(0, 0, 0, 0.7);
+	text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.7);
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.btn-hero:hover {
+	background: var(--secondary);
+}
 

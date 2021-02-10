@@ -2,6 +2,7 @@
 	display: inline-block;
 	color: white;
 	font-size: 3em;
+	text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.7);
 	padding: 10px 0;
 	overflow: hidden;
 	border-right: .15em solid white;

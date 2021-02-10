@@ -1,5 +1,6 @@
 import Site from "../_site_var"
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import FlexContainer from "../components/FlexContainer";
 import TypeWriter from "../components/TypeWriter";
@@ -22,12 +23,16 @@ const Home = () => {
 						<FlexContainer flexID="hero-flex">
 							<img src={duk} alt="duck" style={{width: "67%", height: "auto", maxWidth: "700px" }} className="float" />
 							<div className="hero-content">
-								<h1>Home</h1>
+								<h1>My Site</h1>
 								<TypeWriter write={[
 									"First Sentence", 
 									"Second Sentence", 
 									"Last One"
 								]} />
+								<hr />
+								<Link to="/contact">
+									<button className="btn-hero">Call to Action</button>
+								</Link>
 							</div>
 						</FlexContainer>
 					</Container>
