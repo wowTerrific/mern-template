@@ -39,7 +39,7 @@ p {
 }
 
 section {
-	margin-bottom: 3%;
+	margin-bottom: 5%;
 }
 
 
@@ -58,7 +58,7 @@ section {
 
 .container {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: auto;
     padding: 0 15px;
 }
@@ -253,7 +253,7 @@ footer {
 
 .hero {
 	padding: 125px 0 125px 0;
-	background: linear-gradient(155deg, var(--primary), transparent 30%), url('images/test-lattice.svg'), url('images/hero-bg.svg');
+	background: linear-gradient(155deg, var(--primary), transparent 20%), url('images/test-lattice.svg'), url('images/hero-bg.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom center;
