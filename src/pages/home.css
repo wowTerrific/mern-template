@@ -23,6 +23,13 @@
 	filter: drop-shadow(50px 40px 0px #0cce6b47);
 }
 
+.intro p, .info p {
+	font-size: 1.25rem;
+}
+.intro h2, .info h2 {
+	font-size: 1.75rem;
+}
+
 #flex-spread {
 	justify-content: space-around;
 }
@@ -49,7 +56,7 @@
 
 .info {
     background: linear-gradient(
-135deg
+175deg
 , var(--accent), var(--secondary), var(--primary));
     background-attachment: fixed;
     background-size: cover;
@@ -57,6 +64,46 @@
     padding: 5% 0;
 }
 
+
+
+.cta h3, .spread h3 {
+	font-size: 1.75rem;
+	margin-bottom: 25px;
+}
+
+.cta .btn-primary {
+
+	background: var(--accent);
+
+	border: 3px solid var(--accent);
+}
+
+.cta .btn-primary:hover {
+	background: var(--white);
+	color: var(--accent);
+}
+
+#cta-flex {
+	justify-content: space-evenly;
+}
+
+#cta-flex .card {
+	width: 100%;
+}
+
+#cta-flex .card:nth-child(2) {box-shadow: none;}
+
+@media only screen and (min-width: 768px) {
+	.move-down {
+		margin-top: 10%;
+	}
+	.cta {
+		background: url('../images/divider.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto;
+	}
+}
 @media only screen and (max-width: 767px) {
 	#hero-flex img {
 		display: block;

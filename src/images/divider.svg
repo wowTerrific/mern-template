@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="500"
+   viewBox="0 0 26.458333 132.29167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="divider.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect854"
+       is_visible="true"
+       lpeversion="1"
+       yy="true"
+       xx="true"
+       bendpath1="m 8.8824414,1.1993371 c 3.4288146,3.8978624 6.1052406,2.2727116 8.6934516,0"
+       bendpath2="m 17.575893,1.1993371 c -7.166013,42.5819659 10.760449,84.3535679 0,129.8929929"
+       bendpath3="m 8.8824414,131.09233 c 2.2267646,0 5.4888136,0 8.6934516,0"
+       bendpath4="m 8.8824414,1.1993371 c -9.78128731,32.7498249 13.1897106,84.8922279 0,129.8929929"
+       bendpath4-nodetypes="cc"
+       bendpath2-nodetypes="cc"
+       bendpath1-nodetypes="cc"
+       bendpath3-nodetypes="cc" />
+    <inkscape:path-effect
+       effect="lattice2"
+       gridpoint0="9.4494057,2.5222538"
+       gridpoint1="17.575893,1.1993371"
+       gridpoint2="8.8824414,131.09233"
+       gridpoint3="17.575893,125.98965"
+       gridpoint4="11.244792,2.5222538"
+       gridpoint5="15.40253,1.1993371"
+       gridpoint6="11.055804,131.09233"
+       gridpoint7="15.40253,128.63548"
+       gridpoint8x9="13.040179,3.4671942"
+       gridpoint10x11="13.418155,128.25751"
+       gridpoint12="15.497025,36.318419"
+       gridpoint13="20.977679,25.924073"
+       gridpoint14="11.150299,97.674141"
+       gridpoint15="19.465774,98.430094"
+       gridpoint16="11.055804,33.672585"
+       gridpoint17="15.40253,33.672585"
+       gridpoint18="12.756697,98.052117"
+       gridpoint19="17.670387,98.619082"
+       gridpoint20x21="15.308036,22.900264"
+       gridpoint22x23="14.93006,98.241106"
+       gridpoint24x26="5.2916676,66.334822"
+       gridpoint25x27="13.418155,65.389881"
+       gridpoint28x30="8.2209829,65.956845"
+       gridpoint29x31="20.505209,67.279762"
+       gridpoint32x33x34x35="10.394346,65.956845"
+       id="path-effect852"
+       is_visible="true"
+       lpeversion="1"
+       horizontal_mirror="false"
+       vertical_mirror="false"
+       perimetral="false"
+       live_update="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="190.98859"
+     inkscape:cy="273.42318"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:snap-others="false"
+     inkscape:snap-nodes="false"
+     inkscape:window-width="1418"
+     inkscape:window-height="1037"
+     inkscape:window-x="2092"
+     inkscape:window-y="49"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="cc"
+       id="path835"
+       d="m 13.229167,2.5021933 c -16.3490205,36.8499607 14.500777,84.0948437 0,127.2872767"
+       style="fill:none;stroke:#dddddd;stroke-width:1.97984;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

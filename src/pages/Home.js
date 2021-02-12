@@ -10,7 +10,8 @@ import duk from "../images/duk-min.png";
 import "./home.css";
 
 import interesting from "../images/example-img.svg";
-import star from "../images/star1.svg";
+import star1 from "../images/star1.svg";
+import star2 from "../images/star2.svg";
 
 
 const Home = () => {
@@ -55,21 +56,22 @@ const Home = () => {
 				</section>
 				<section className="spread">
 					<Container>
+						<h3 className="txt-center">Do Things Here</h3>
 						<FlexContainer flexID="flex-spread">
 							<div className="card">
-								<img src={star} alt="star" style={{width: "100%", height: "auto"}} />
+								<img src={star1} alt="star" style={{width: "100%", height: "auto"}} />
 								<h4>Title</h4>
 								<p>Short description goes here</p>
 								<button className="btn-primary">Click</button>
 							</div>
 							<div className="card">
-								<img src={star} alt="star" style={{width: "100%", height: "auto"}} />
+								<img src={star1} alt="star" style={{width: "100%", height: "auto"}} />
 								<h4>Title</h4>
 								<p>This is another card description</p>
 								<button className="btn-primary">Click</button>
 							</div>
 							<div className="card">
-								<img src={star} alt="star" style={{width: "100%", height: "auto"}} />
+								<img src={star1} alt="star" style={{width: "100%", height: "auto"}} />
 								<h4>Title</h4>
 								<p>The third description here.</p>
 								<button className="btn-primary">Click</button>
@@ -92,25 +94,35 @@ const Home = () => {
 				</section>
 				<section className="cta">
 					<Container>
-						<h3>Call to action(s)</h3>
-						<FlexContainer flexID="flex-spread">
-							<div className="card">
-								<img src={star} alt="star" style={{width: "100%", height: "auto"}} />
-								<h4>Title</h4>
-								<p>Short description goes here</p>
-								<button className="btn-primary">Click</button>
+						<h3 className="txt-center">Do More Things Here</h3>
+						<FlexContainer flexID="cta-flex">
+							<div className="move-down">
+								<div className="card">
+									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<h4>Title</h4>
+									<p>Short description goes here</p>
+									<button className="btn-primary">Click</button>
+								</div>
+								<div className="card">
+									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<h4>Title</h4>
+									<p>Short description goes here</p>
+									<button className="btn-primary">Click</button>
+								</div>
 							</div>
-							<div className="card">
-								<img src={star} alt="star" style={{width: "100%", height: "auto"}} />
-								<h4>Title</h4>
-								<p>This is another card description</p>
-								<button className="btn-primary">Click</button>
-							</div>
-							<div className="card">
-								<img src={star} alt="star" style={{width: "100%", height: "auto"}} />
-								<h4>Title</h4>
-								<p>The third description here.</p>
-								<button className="btn-primary">Click</button>
+							<div>
+								<div className="card">
+									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<h4>Title</h4>
+									<p>This is another card description</p>
+									<button className="btn-primary">Click</button>
+								</div>
+								<div className="card">
+									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<h4>Title</h4>
+									<p>The third description here.</p>
+									<button className="btn-primary">Click</button>
+								</div>
 							</div>
 						</FlexContainer>
 					</Container>
