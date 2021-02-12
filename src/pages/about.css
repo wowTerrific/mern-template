@@ -1,0 +1,49 @@
+.about-info {
+
+}
+
+#about-info-flex {
+
+}
+
+
+
+.about-info-sidebar {
+
+}
+
+.about-card {
+	padding: 25px 10px 10px;
+	border-bottom: 2px solid #ddd;
+}
+.about-card:first-child {
+	padding-top: 0;
+}
+.about-card:last-child {
+	border: none;
+}
+
+.about-card-img {
+	border-radius: 20px;
+}
+
+.about-card ul {
+	border-left: 2px dashed var(--primary);
+	padding-left: 20px;
+}
+
+.about-card li {
+	margin-bottom: 10px;
+}
+
+.caption {
+	text-align: right;
+	font-style: italic;
+	font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+	.about-info-content {
+		padding-right: 25px;
+	}
+}
