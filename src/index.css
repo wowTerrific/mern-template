@@ -247,8 +247,45 @@ footer {
 
 .footer-logo {
 	display: block;
-	margin: 0 auto 25px;
+	margin: 0 auto 30px;
 	opacity: 0.7;
+}
+
+.footer-social-links {
+	margin-bottom: 30px;
+}
+.social-link {
+	display: inline;
+	margin: 10px;
+}
+.social-link img {
+	opacity: 0.3;
+	transition: 0.2s;
+}
+.social-link img:hover {
+	opacity: 1;
+}
+
+.footer-site-links {
+	
+}
+.ftr-site-link-cont {
+	display: inline;
+	padding: 0 10px;
+}
+.ftr-site-link-cont:nth-child(2) {
+	border-left: 2px solid rgba(255, 255, 255, 0.3);
+	border-right: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 320px) {
+	.ftr-site-link-cont {
+		display: block;
+		padding: 10px;
+	}
+	.ftr-site-link-cont:nth-child(2) {
+		border: none;
+	}
 }
 
 /************** Standard Hero *********************/
