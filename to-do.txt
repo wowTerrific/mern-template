@@ -1,12 +1,15 @@
 1.) Create Front-End
 xx  - SEO : react-helmet
 xx  - Header & Nav
-  - Footer
-  - Homepage basic design
-  - Landing Page basic design
+xx  - Footer
+xx  - Homepage basic design
+xx  - Landing Page basic design
 xx  - Contact Page / Form
-  - Add Custom 404 page
+xx  - Add Custom 404 page
   - Blog Design
+  - Port design over to Gatsby to use as Static template
+  	- add strapi CMS
+
   - E-Commerce Design
   - Appointment Scheduling Design
 
