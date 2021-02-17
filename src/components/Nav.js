@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
+
+// add useEffect to do a window.scrollTo(0, 0)
 
 const Nav = () => {
 
 	const [showMobile, setShowMobile] = useState(false);
 	const [navHide, setNavHide] = useState('hide-nav')
+
+	useEffect( () => toTop(), [navHide]);
+
+	const toTop = () => window.scrollTo(0, 0);
 
 	const newPage = () => {
 		setShowMobile(false);
@@ -26,10 +32,10 @@ const Nav = () => {
 	        
 						<nav id="desk-nav">
 							<ul>
-								<li><Link to="/">Home</Link></li>
-								<li><Link to="/services">Services</Link></li>
-								<li><Link to="/about">About</Link></li>
-								<li><Link to="/contact">Contact</Link></li>
+								<li><Link to="/" onClick={toTop}>Home</Link></li>
+								<li><Link to="/services" onClick={toTop}>Services</Link></li>
+								<li><Link to="/about" onClick={toTop}>About</Link></li>
+								<li><Link to="/contact" onClick={toTop}>Contact</Link></li>
 							</ul>
 						</nav>
 						
