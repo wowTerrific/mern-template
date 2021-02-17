@@ -1,9 +1,11 @@
 import Site from "../_site_var"
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+
 import Container from "../components/Container";
 import FlexContainer from "../components/FlexContainer";
 import "./about.css";
+
 
 const About = () => {
 	return (

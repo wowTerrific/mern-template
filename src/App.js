@@ -1,7 +1,8 @@
+import Site from "./_site_var"
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Site from "./_site_var"
+
 
 //Router
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -14,10 +15,9 @@ import NoRoute from "./pages/NoRoute";
 const App = () => {
   return (
 	<Router>
-	  <Header>
-		<Nav />
-	  </Header>
-		
+		<Header>
+			<Nav />
+		</Header>
 		  <Switch>
 			<Route exact path="/">
 			  <Home />
@@ -35,10 +35,7 @@ const App = () => {
 			  <NoRoute />
 			</Route>
 		  </Switch>
-
-
-	  
-	  <Footer />
+		<Footer />
 	</Router>
   );
 }

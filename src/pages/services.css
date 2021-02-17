@@ -1,0 +1,35 @@
+
+
+.service-item-img-cont {
+	
+}
+.service-item-img {
+	width: 100%;
+	height: auto;
+}
+.caption {
+	text-align: right;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.service-item-txt {
+	margin-bottom: 3%;
+}
+
+@media only screen and (min-width: 768px) {
+	.service-item {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.service-item-img-cont, .service-item-txt {
+		width: 50%;
+		padding-right: 25px;
+		margin-bottom: 0;
+	}
+	.service-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+}

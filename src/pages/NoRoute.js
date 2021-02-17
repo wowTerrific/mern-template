@@ -1,5 +1,6 @@
 import Site from "../_site_var"
 import { Helmet } from "react-helmet";
+
 import "./noroute.css";
 
 const NoRoute = () => {
