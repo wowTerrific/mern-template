@@ -7,7 +7,7 @@ xx  - Landing Page basic design
 xx  - Contact Page / Form
 xx  - Add Custom 404 page
   - Create CSS for flex modules
-  - sitemap
+xx  - sitemap
   - Blog Design
   - Port design over to Gatsby to use as Static template
   	- add strapi CMS
