@@ -5,6 +5,8 @@ import social from "../images/social-link.png";
 
 const Footer = () => {
 	
+	const toTop = () => window.scrollTo(0, 0);
+	
 	return (
 		<footer>
 			<Container>
@@ -30,13 +32,13 @@ const Footer = () => {
 				</div>
 				<div className="footer-site-links">
 					<div className="ftr-site-link-cont">
-						<Link to="/">Sitemap</Link>
+						<Link to="/sitemap" onClick={toTop}>Sitemap</Link>
 					</div>
 					<div className="ftr-site-link-cont">
-						<Link to="/">Home</Link>
+						<Link to="/" onClick={toTop}>Home</Link>
 					</div>
 					<div className="ftr-site-link-cont">
-						<Link to="/contact">Contact Us</Link>
+						<Link to="/contact" onClick={toTop}>Contact Us</Link>
 					</div>
 				</div>
 			</Container>

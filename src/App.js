@@ -11,6 +11,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NoRoute from "./pages/NoRoute";
+import Sitemap from "./pages/Sitemap";
 
 const App = () => {
   return (
@@ -30,6 +31,9 @@ const App = () => {
 			</Route>
 			<Route path="/contact">
 			  <Contact />
+			</Route>
+			<Route path="/sitemap">
+			  <Sitemap />
 			</Route>
 			<Route path="*">
 			  <NoRoute />
