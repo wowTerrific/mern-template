@@ -8,6 +8,7 @@ import "./sitemap.css";
 const Sitemap = () => {
 
 	const toTop = () => window.scrollTo(0, 0);
+	const pageLinks = Site.mainPages.map( x => <li><Link to={x.link} onClick={toTop}>{x.name}</Link></li>);
 
 	return (
 		<>
@@ -26,10 +27,7 @@ const Sitemap = () => {
 						<div className="sitemap-list">
 							<h3>Main Pages</h3>
 							<ul>
-								<li><Link to="/" onClick={toTop}>Home</Link></li>
-								<li><Link to="/services" onClick={toTop}>Services</Link></li>
-								<li><Link to="/about" onClick={toTop}>About</Link></li>
-								<li><Link to="/contact" onClick={toTop}>Contact</Link></li>
+								{pageLinks}
 							</ul>
 						</div>
 					</Container>

@@ -10,7 +10,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<Container>
-				<Link to="/">
+				<Link to="/" onClick={toTop}>
 					<img className="footer-logo" src={logo} alt="logo" style={{width: "100%", height: "auto", maxWidth: "200px" }} loading="lazy" />
 				</Link>
 				<div className="footer-social-links">

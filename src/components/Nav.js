@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-
-
-// add useEffect to do a window.scrollTo(0, 0)
+import Site from "../_site_var";
 
 const Nav = () => {
 
@@ -18,6 +16,9 @@ const Nav = () => {
 		setNavHide('hide-nav');
 	}
 
+	const deskLinks = Site.mainPages.map( x => <li><Link to={x.link} onClick={toTop}>{x.name}</Link></li> );
+	const mobileLinks = Site.mainPages.map( x => <Link to={x.link} onClick={newPage}><li>{x.name}</li></Link> );
+
 	return (
 	    <div id="nav-container">
 	        <div id="nav-btn-mobile" onClick={ () => {
@@ -32,19 +33,13 @@ const Nav = () => {
 	        
 						<nav id="desk-nav">
 							<ul>
-								<li><Link to="/" onClick={toTop}>Home</Link></li>
-								<li><Link to="/services" onClick={toTop}>Services</Link></li>
-								<li><Link to="/about" onClick={toTop}>About</Link></li>
-								<li><Link to="/contact" onClick={toTop}>Contact</Link></li>
+								{deskLinks}
 							</ul>
 						</nav>
 						
 						<nav id="mobile-nav" className={ navHide }>
 							<ul>
-								<Link to="/" onClick={newPage}><li>Home</li></Link>
-								<Link to="/services" onClick={newPage}><li>Services</li></Link>
-								<Link to="/about" onClick={newPage}><li>About</li></Link>
-								<Link to="/contact" onClick={newPage}><li>Contact</li></Link>
+								{mobileLinks}
 							</ul>
 						</nav>
 		</div>
