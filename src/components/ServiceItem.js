@@ -1,14 +1,16 @@
+import FlexContainer from "./FlexContainer";
+
 const ServiceItem = (props) => {
 	return (
-		<div className="service-item">
-			<div className="service-item-img-cont">
+		<FlexContainer className="service-item flex-items-center flex-align-items-center" isSmall={true}>
+			<div className="service-item-img-cont flex-s-50">
 				<img className="service-item-img" src={props.imgSrc} alt={props.imgAlt} />
 				<p className="caption">{props.imgCaption}</p>
 			</div>
-			<div className="service-item-txt">
+			<div className="service-item-txt flex-s-50">
 				{props.children}
 			</div>
-		</div>
+		</FlexContainer>
 	)
 }
 ServiceItem.defaultProps = {

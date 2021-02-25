@@ -22,8 +22,8 @@ const About = () => {
 				</section>
 				<section className="about-info">
 					<Container>
-						<FlexContainer flexID="about-info-flex">
-							<div className="about-info-content">
+						<FlexContainer flexID="about-info-flex" isSmall={true}>
+							<div className="about-info-content flex-s-67">
 								<h3>Why not Learn More About Us?</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non odio euismod lacinia at quis risus sed. Scelerisque eu ultrices vitae auctor eu augue ut. Nunc id cursus metus aliquam eleifend mi in. Purus gravida quis blandit turpis. Pretium quam vulputate dignissim suspendisse. Vitae nunc sed velit dignissim sodales ut eu sem. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Et sollicitudin ac orci phasellus. Aliquam faucibus purus in massa tempor nec feugiat. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Sit amet facilisis magna etiam tempor. Massa placerat duis ultricies lacus sed turpis tincidunt. Felis donec et odio pellentesque diam. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Eu nisl nunc mi ipsum. Nisl suscipit adipiscing bibendum est ultricies integer. Vitae auctor eu augue ut lectus arcu bibendum at. Quam lacus suspendisse faucibus interdum.</p>
 
@@ -36,7 +36,7 @@ const About = () => {
 
 								<p>Ipsum dolor sit amet consectetur adipiscing. A arcu cursus vitae congue mauris rhoncus aenean vel. Nunc vel risus commodo viverra. Potenti nullam ac tortor vitae purus faucibus. Vitae turpis massa sed elementum tempus. Tempor commodo ullamcorper a lacus vestibulum sed. Eu mi bibendum neque egestas congue quisque egestas. Mi sit amet mauris commodo. Tempor orci dapibus ultrices in iaculis nunc sed. Orci phasellus egestas tellus rutrum tellus. Nisi est sit amet facilisis magna. Ut etiam sit amet nisl. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Felis donec et odio pellentesque diam volutpat commodo sed egestas. Sollicitudin aliquam ultrices sagittis orci a. Lacus viverra vitae congue eu. In fermentum et sollicitudin ac orci. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Fusce id velit ut tortor pretium viverra. Viverra suspendisse potenti nullam ac tortor vitae purus.</p>
 							</div>
-							<div className="about-info-sidebar">
+							<div className="about-info-sidebar flex-s-33">
 								<div className="about-card">
 									<h4>For your Consideration</h4>
 									<p>Here's a quick blurb on the side-bar</p>

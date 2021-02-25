@@ -88,7 +88,7 @@ section {
 /* FIX THIS RIGHT HERE */
 
 @media only screen and (min-width: 768px) {
-	.flex-container {
+	/*.flex-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -96,7 +96,7 @@ section {
 	.flex-item-50 {
 		width: 50%;
 		padding-right: 25px;
-	}
+	}*/
 	
 /* END FIX */	
 	
@@ -402,5 +402,13 @@ footer {
 
 .btn-hero:hover {
 	background: var(--secondary);
+}
+
+/********************* contact ******************************/
+
+@media only screen and (min-width: 768px) {
+	.description-content {
+		padding-right: 25px;
+	}
 }
 

@@ -6,7 +6,7 @@ xx  - Homepage basic design
 xx  - Landing Page basic design
 xx  - Contact Page / Form
   - Add Links to 404 page
-  - Create CSS for flex modules
+xx  - Create CSS for flex modules
 xx  - sitemap
   - Blog Design
   - Port design over to Gatsby to use as Static template
