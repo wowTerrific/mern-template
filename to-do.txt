@@ -5,7 +5,7 @@ xx  - Footer
 xx  - Homepage basic design
 xx  - Landing Page basic design
 xx  - Contact Page / Form
-  - Add Links to 404 page
+xx  - Add Links to 404 page
 xx  - Create CSS for flex modules
 xx  - sitemap
   - Blog Design

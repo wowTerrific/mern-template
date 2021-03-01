@@ -41,6 +41,9 @@ const Footer = () => {
 						<Link to="/contact" onClick={toTop}>Contact Us</Link>
 					</div>
 				</div>
+				<div className="legal">
+					<p>Website by <a href="https://github.com/wowTerrific/" target="_blank">wowTerrific</a></p>
+				</div>
 			</Container>
 		</footer>
 	)

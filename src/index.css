@@ -350,6 +350,11 @@ footer {
 	border-right: 2px solid rgba(255, 255, 255, 0.3);
 }
 
+.legal {
+	margin: 30px auto 0;
+	font-size: 14px;
+}
+
 @media only screen and (max-width: 320px) {
 	.ftr-site-link-cont {
 		display: block;
