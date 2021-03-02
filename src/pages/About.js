@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import Container from "../components/Container";
 import FlexContainer from "../components/FlexContainer";
+import Image from "../components/Image";
+import ImgCaption from "../components/ImgCaption";
 import "./about.css";
 
 
@@ -47,13 +49,26 @@ const About = () => {
 								</div>
 								
 								<div className="about-card">
-									<img className="about-card-img" src="https://images.unsplash.com/photo-1612928643692-0f33b0448e14?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3900&q=80" alt="some nice image 1" style={{width: "100%", height: "auto"}} loading="lazy" />
-									<p className="caption">Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank">Tengyart</a></p>
+									<Image 	src="https://images.unsplash.com/photo-1612928643692-0f33b0448e14?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3900&q=80" 
+											alt="some nice image 1" 
+											className="about-card-img"
+									>
+										<ImgCaption className="caption">
+											Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank">Tengyart</a>
+										</ImgCaption>
+									</Image>
 								</div>
 								
 								<div className="about-card">
-									<img className="about-card-img" src="https://images.unsplash.com/photo-1613057217754-9658775053aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80" alt="some nice image 1" style={{width: "100%", height: "auto"}} loading="lazy" />
-									<p className="caption">Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank">Tengyart</a></p>
+								
+									<Image 	src="https://images.unsplash.com/photo-1613057217754-9658775053aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80" 
+											alt="some nice image 2" 
+											className="about-card-img"
+									>
+										<ImgCaption className="caption">
+											Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank">Tengyart</a>
+										</ImgCaption>
+									</Image>
 								</div>
 							</div>
 						</FlexContainer>
