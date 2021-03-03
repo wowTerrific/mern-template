@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Container from "./Container";
 import logo from "../images/white-template-logo.png";
 import social from "../images/social-link.png";
+import Image from "./Image";
 
 const Footer = () => {
 	
@@ -11,7 +12,7 @@ const Footer = () => {
 		<footer>
 			<Container>
 				<Link to="/" onClick={toTop}>
-					<img className="footer-logo" src={logo} alt="logo" style={{width: "100%", height: "auto", maxWidth: "200px" }} loading="lazy" />
+					<Image src={logo} alt="Your Logo" className="footer-logo" />
 				</Link>
 				<div className="footer-social-links">
 					<div className="social-link">

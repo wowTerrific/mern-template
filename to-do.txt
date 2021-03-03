@@ -9,7 +9,7 @@ xx  - Add Links to 404 page
 xx  - Create CSS for flex modules
 xx  - sitemap
     - Create Standard Component Library
-    	- currently working on <figure> and <figcaption> - need to do home, services, & logos
+    	- currently working on <figure> and <figcaption> - need to do home, services 
 
 
   - Blog Design
