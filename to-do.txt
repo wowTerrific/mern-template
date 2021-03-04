@@ -8,9 +8,12 @@ xx  - Contact Page / Form
 xx  - Add Links to 404 page
 xx  - Create CSS for flex modules
 xx  - sitemap
+    - Nav: Conditional styling with react-router (location.pathname)
     - Create Standard Component Library
-    	- currently working on <figure> and <figcaption> - need to do home, services 
-
+	- Video
+	- Buttons/CTA
+	- Gallery w/ Modals
+	- Slider
 
   - Blog Design
   - Port design over to Gatsby to use as Static template
