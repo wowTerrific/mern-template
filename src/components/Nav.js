@@ -16,8 +16,8 @@ const Nav = () => {
 		setNavHide('hide-nav');
 	}
 
-	const deskLinks = Site.mainPages.map( x => <li><Link to={x.link} onClick={toTop}>{x.name}</Link></li> );
-	const mobileLinks = Site.mainPages.map( x => <Link to={x.link} onClick={newPage}><li>{x.name}</li></Link> );
+	const deskLinks = Site.mainPages.map( x => <li key={x.key}><Link to={x.link} onClick={toTop}>{x.name}</Link></li> );
+	const mobileLinks = Site.mainPages.map( x => <Link to={x.link} onClick={newPage} key={x.key}><li>{x.name}</li></Link> );
 
 	return (
 	    <div id="nav-container">

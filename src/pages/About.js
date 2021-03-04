@@ -54,7 +54,7 @@ const About = () => {
 											className="about-card-img"
 									>
 										<ImgCaption className="caption">
-											Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank">Tengyart</a>
+											Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank" rel="noreferrer">Tengyart</a>
 										</ImgCaption>
 									</Image>
 								</div>
@@ -66,7 +66,7 @@ const About = () => {
 											className="about-card-img"
 									>
 										<ImgCaption className="caption">
-											Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank">Tengyart</a>
+											Photo Credit: <a href="https://unsplash.com/@tengyart" target="_blank" rel="noreferrer">Tengyart</a>
 										</ImgCaption>
 									</Image>
 								</div>

@@ -4,10 +4,10 @@ const Site = {
 	phone: "(574) 555-5555",
 	email: "site_email@email.com",
 	mainPages: [
-		{name: "Home", link: "/"},
-		{name: "Services", link: "/services"},
-		{name: "About", link: "/about"},
-		{name: "Contact", link: "/contact"}
+		{key: 0, name: "Home", link: "/"},
+		{key: 1, name: "Services", link: "/services"},
+		{key: 2, name: "About", link: "/about"},
+		{key: 3, name: "Contact", link: "/contact"}
 	]
 }
 

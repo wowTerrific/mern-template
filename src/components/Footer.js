@@ -16,17 +16,17 @@ const Footer = () => {
 				</Link>
 				<div className="footer-social-links">
 					<div className="social-link">
-						<a href="#">
+						<a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
 							<img src={social} alt="Social icon" style={socialIconStyle} />
 						</a>
 					</div>
 					<div className="social-link">
-						<a href="#">
+						<a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
 							<img src={social} alt="Social icon" style={socialIconStyle} />
 						</a>
 					</div>
 					<div className="social-link">
-						<a href="#">
+						<a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
 							<img src={social} alt="Social icon" style={socialIconStyle} />
 						</a>
 					</div>
@@ -43,7 +43,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="legal">
-					<p>Website by <a href="https://github.com/wowTerrific/" target="_blank">wowTerrific</a></p>
+					<p>Website by <a href="https://github.com/wowTerrific/" target="_blank" rel="noreferrer">wowTerrific</a></p>
 				</div>
 			</Container>
 		</footer>
