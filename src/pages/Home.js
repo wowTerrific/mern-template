@@ -7,6 +7,8 @@ import Container from "../components/Container";
 import FlexContainer from "../components/FlexContainer";
 import TypeWriter from "../components/TypeWriter";
 import "../components/typewriter.css";
+import Image from "../components/Image";
+
 
 import duk from "../images/duk-min.png";
 import "./home.css";
@@ -28,7 +30,7 @@ const Home = () => {
 					<Container>
 						<FlexContainer className="flex-align-items-center flex-content-center" flexID="hero-flex">
 							<div className="flex-m-50">
-								<img src={duk} alt="duck" style={{width: "100%", height: "auto" }} className="float" />
+								<Image className="float" src={duk} alt="duck" />
 							</div>
 							<div className="hero-content flex-m-50">
 								<h1>My Site</h1>
@@ -52,9 +54,7 @@ const Home = () => {
 								<h2>Intro Section</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 							</div>
-							<div className="flex-m-33 intro-img p-all">
-								<img src={interesting} alt="erm interesting..." style={{width: "100%", height: "auto"}} />
-							</div>
+							<Image src={interesting} alt="erm interesting..." className="flex-m-33 intro-img p-all"/>
 						</FlexContainer>
 					</Container>
 				</section>
@@ -63,19 +63,19 @@ const Home = () => {
 						<h3 className="txt-center">Do Things Here</h3>
 						<FlexContainer isSmall={true} flexID="flex-spread">
 							<div className="card flex-s-33">
-								<img src={star1} alt="star" style={{width: "100%", height: "auto"}} />
+								<Image src={star1} alt="star" />
 								<h4>Title</h4>
 								<p>Short description goes here</p>
 								<button className="btn-primary">Click</button>
 							</div>
 							<div className="card flex-s-33">
-								<img src={star1} alt="star" style={{width: "100%", height: "auto"}} />
+								<Image src={star1} alt="star" />
 								<h4>Title</h4>
 								<p>This is another card description</p>
 								<button className="btn-primary">Click</button>
 							</div>
 							<div className="card flex-s-33">
-								<img src={star1} alt="star" style={{width: "100%", height: "auto"}} />
+								<Image src={star1} alt="star" />
 								<h4>Title</h4>
 								<p>The third description here.</p>
 								<button className="btn-primary">Click</button>
@@ -86,9 +86,7 @@ const Home = () => {
 				<section className="info">
 					<Container>
 						<FlexContainer isSmall={true} className="flex-align-items-center flex-content-center" flexID="intro-flex">
-							<div className="intro-img flex-s-33 p-all">
-								<img src={interesting} alt="erm interesting..." style={{width: "100%", height: "auto"}} />
-							</div>
+							<Image src={interesting} alt="erm interesting..." className="flex-m-33 intro-img p-all"/>
 							<div className="intro-content flex-s-67">
 								<h2>More Info Section</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -102,13 +100,13 @@ const Home = () => {
 						<FlexContainer flexID="cta-flex">
 							<div className="move-down flex-m-33">
 								<div className="card">
-									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>Short description goes here</p>
 									<button className="btn-primary">Click</button>
 								</div>
 								<div className="card">
-									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>Short description goes here</p>
 									<button className="btn-primary">Click</button>
@@ -116,13 +114,13 @@ const Home = () => {
 							</div>
 							<div className="flex-m-33">
 								<div className="card">
-									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>This is another card description</p>
 									<button className="btn-primary">Click</button>
 								</div>
 								<div className="card">
-									<img src={star2} alt="star" style={{width: "100%", height: "auto"}} />
+									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>The third description here.</p>
 									<button className="btn-primary">Click</button>

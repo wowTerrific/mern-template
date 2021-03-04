@@ -84,7 +84,7 @@
 		background-size: auto;
 	}
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
 	#hero-flex img {
 		display: block;
 		margin: auto;

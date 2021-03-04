@@ -4,8 +4,10 @@ const ServiceItem = (props) => {
 	return (
 		<FlexContainer className="service-item flex-items-center flex-align-items-center" isSmall={true}>
 			<div className="service-item-img-cont flex-s-50">
-				<img className="service-item-img" src={props.imgSrc} alt={props.imgAlt} />
-				<p className="caption">{props.imgCaption}</p>
+				<figure className="service-item-img">
+					<img src={props.imgSrc} alt={props.imgAlt} />
+					<figcaption className="caption">{props.imgCaption}</figcaption>
+				</figure>
 			</div>
 			<div className="service-item-txt flex-s-50">
 				{props.children}
