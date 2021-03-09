@@ -17,6 +17,7 @@ import interesting from "../images/example-img.svg";
 import star1 from "../images/star1.svg";
 import star2 from "../images/star2.svg";
 
+import BtnPrimary from "../components/BtnPrimary";
 
 const Home = () => {
 	return (
@@ -66,19 +67,19 @@ const Home = () => {
 								<Image src={star1} alt="star" />
 								<h4>Title</h4>
 								<p>Short description goes here</p>
-								<button className="btn-primary">Click</button>
+								<BtnPrimary to="/contact">Click</BtnPrimary>
 							</div>
 							<div className="card flex-s-33">
 								<Image src={star1} alt="star" />
 								<h4>Title</h4>
 								<p>This is another card description</p>
-								<button className="btn-primary">Click</button>
+								<BtnPrimary to="/contact">Click</BtnPrimary>
 							</div>
 							<div className="card flex-s-33">
 								<Image src={star1} alt="star" />
 								<h4>Title</h4>
 								<p>The third description here.</p>
-								<button className="btn-primary">Click</button>
+								<BtnPrimary to="/contact">Click</BtnPrimary>
 							</div>
 						</FlexContainer>
 					</Container>
@@ -103,13 +104,13 @@ const Home = () => {
 									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>Short description goes here</p>
-									<button className="btn-primary">Click</button>
+									<BtnPrimary to="/contact">Click</BtnPrimary>
 								</div>
 								<div className="card">
 									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>Short description goes here</p>
-									<button className="btn-primary">Click</button>
+									<BtnPrimary to="/contact">Click</BtnPrimary>
 								</div>
 							</div>
 							<div className="flex-m-33">
@@ -117,13 +118,13 @@ const Home = () => {
 									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>This is another card description</p>
-									<button className="btn-primary">Click</button>
+									<BtnPrimary to="/contact">Click</BtnPrimary>
 								</div>
 								<div className="card">
 									<Image src={star2} alt="star" />
 									<h4>Title</h4>
 									<p>The third description here.</p>
-									<button className="btn-primary">Click</button>
+									<BtnPrimary to="/contact">Click</BtnPrimary>
 								</div>
 							</div>
 						</FlexContainer>

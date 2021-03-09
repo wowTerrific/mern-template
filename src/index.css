@@ -69,6 +69,7 @@ section {
 	display: block;
 	width: 100%;
 	max-width: 350px;
+	margin: auto;
 	background: var(--secondary);
 	color: var(--white);
 	border: 3px solid var(--secondary);
@@ -85,21 +86,7 @@ section {
 
 .txt-center {text-align: center;}
 
-/* FIX THIS RIGHT HERE */
-
 @media only screen and (min-width: 768px) {
-	/*.flex-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-	.flex-item-50 {
-		width: 50%;
-		padding-right: 25px;
-	}*/
-	
-/* END FIX */	
-	
 	div.form {
 		border-left: 2px solid #aaa;
 		padding-left: 25px;
