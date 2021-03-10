@@ -21,6 +21,12 @@ const Services = () => {
 				</section>
 				<section className="service-cont">
 					<Container>
+						
+						<h2 style={{color: "red", textAlign: "center"}}>**Put a couple slides here**</h2>
+						<br />
+						<br />
+						
+						
 						<ServiceItem>
 							<h3>Service 1</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At elementum eu facilisis sed. Ornare arcu odio ut sem nulla pharetra diam sit amet. Maecenas sed enim ut sem viverra aliquet.</p>
@@ -37,6 +43,11 @@ const Services = () => {
 							<h3>Service 4</h3>
 							<p>Pellentesque id nibh tortor id aliquet lectus proin. Amet nisl purus in mollis nunc sed id. Nunc sed id semper risus in hendrerit gravida. At consectetur lorem donec massa. Viverra orci sagittis eu volutpat.</p>
 						</ServiceItem>
+						
+						
+						<br />
+						<br />
+						<h2 style={{color: "red", textAlign: "center"}}>**Gallery to go here**</h2>
 					</Container>
 				</section>
 			</main>
