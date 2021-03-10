@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 
 import Container from "../components/Container";
 import ServiceItem from "../components/ServiceItem";
-
+import GalleryContainer from "../components/GalleryContainer";
 
 const Services = () => {
 	return (
@@ -48,6 +48,9 @@ const Services = () => {
 						<br />
 						<br />
 						<h2 style={{color: "red", textAlign: "center"}}>**Gallery to go here**</h2>
+						<GalleryContainer>
+							<p>test</p>
+						</GalleryContainer>
 					</Container>
 				</section>
 			</main>
