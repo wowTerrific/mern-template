@@ -1,10 +1,12 @@
+import Image from "./Image";
+
 const GalleryModal = (props) => {
 
 	return (
 		<div className="modal" onClick={props.onClick}>
 			<div className="modal-overlay">
 				<div className="modal-content">
-					<img src={props.src} alt={props.alt} className="modal-image" />
+					<Image src={props.src} alt={props.alt} className="modal-img" />
 				</div>
 			</div>
 		</div>
