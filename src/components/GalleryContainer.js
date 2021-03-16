@@ -1,3 +1,5 @@
+import "./gallery.css";
+
 const GalleryContainer = (props) => {	
 
 	return (

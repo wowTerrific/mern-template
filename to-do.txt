@@ -11,8 +11,6 @@ xx  - sitemap
     - Nav: Conditional styling with react-router (location.pathname)
     - Create Standard Component Library
 	- Video
-	- Buttons/CTA
-	- Gallery w/ Modals
 	- Slider
 
   - Blog Design

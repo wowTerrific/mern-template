@@ -1,0 +1,37 @@
+.gallery-container {
+
+}
+
+.gallery-image-container {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 900;
+	width: 100vw;
+	height: 100vh;
+	cursor: pointer;
+}
+
+.modal-overlay {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 20px 30px 20px 20px;
+}
+
+.modal-content {
+	background: var(--white);
+	padding: 15px;
+}
+
+.modal-img {
+	width: 100%;
+}
