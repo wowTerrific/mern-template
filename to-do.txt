@@ -11,7 +11,7 @@ xx  - sitemap
     - Nav: Conditional styling with react-router (location.pathname)
     - Create Standard Component Library
 	- Video
-	- Slider
+	- iframe
 
   - Blog Design
   - Port design over to Gatsby to use as Static template

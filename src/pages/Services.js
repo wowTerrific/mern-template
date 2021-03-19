@@ -6,6 +6,7 @@ import Container from "../components/Container";
 import ServiceItem from "../components/ServiceItem";
 import GalleryContainer from "../components/GalleryContainer";
 import GalleryImage from "../components/GalleryImage";
+import SlickSlider from "../components/SlickSlider";
 
 import FlexContainer from "../components/FlexContainer";
 
@@ -25,10 +26,13 @@ const Services = () => {
 				<section className="service-cont">
 					<Container>
 						
-						<h2 style={{color: "red", textAlign: "center"}}>**Put a couple slides here**</h2>
+						<h2 style={{color: "red", textAlign: "center"}}>**NPM react-slick**</h2>
+						<p style={{textAlign: "center"}}><a href="https://www.npmjs.com/package/react-slick" target="_blank">Documentation</a></p>
+						<SlickSlider />
 						<br />
 						<br />
-						
+						<br />
+						<br />
 						
 						<ServiceItem>
 							<h3>Service 1</h3>
