@@ -27,7 +27,7 @@ const Services = () => {
 					<Container>
 						
 						<h2 style={{color: "red", textAlign: "center"}}>**NPM react-slick**</h2>
-						<p style={{textAlign: "center"}}><a href="https://www.npmjs.com/package/react-slick" target="_blank">Documentation</a></p>
+						<p style={{textAlign: "center"}}><a href="https://www.npmjs.com/package/react-slick" target="_blank" rel="noreferrer">Documentation</a></p>
 						<SlickSlider />
 						<br />
 						<br />

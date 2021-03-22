@@ -1,6 +1,6 @@
 import Image from "./Image";
 import GalleryModal from "./GalleryModal";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const GalleryImage = ( props ) => {
 	
