@@ -10,9 +10,7 @@ xx  - Create CSS for flex modules
 xx  - sitemap
     - Nav: Conditional styling with react-router (location.pathname)
     - Create Standard Component Library
-        - Slick Slider Styling
 	- Video
-	- iframe
 
   - Blog Design
   - Port design over to Gatsby to use as Static template

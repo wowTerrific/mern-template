@@ -26,13 +26,8 @@ const Services = () => {
 				<section className="service-cont">
 					<Container>
 						
-						<h2 style={{color: "red", textAlign: "center"}}>**NPM react-slick**</h2>
-						<p style={{textAlign: "center"}}><a href="https://www.npmjs.com/package/react-slick" target="_blank" rel="noreferrer">Documentation</a></p>
-						<SlickSlider />
-						<br />
-						<br />
-						<br />
-						<br />
+						
+						
 						
 						<ServiceItem>
 							<h3>Service 1</h3>
@@ -54,6 +49,16 @@ const Services = () => {
 						
 						<br />
 						<br />
+						
+						<h2>NPM react-slick</h2>
+						<p><a href="https://www.npmjs.com/package/react-slick" target="_blank" rel="noreferrer">Documentation</a></p>
+						<SlickSlider />
+						
+						<br />
+						<br />
+						<br />
+						<br />
+						
 						<h2>Gallery Sample</h2>
 						<GalleryContainer>
 							<FlexContainer className="flex-align-items-center flex-justify-center">
