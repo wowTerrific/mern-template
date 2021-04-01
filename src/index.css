@@ -248,6 +248,11 @@ nav ul a {
 #desk-nav ul li a:hover::after {
 	transform: scale(1);
 }
+
+#nav-page-active a::after {
+	transform: scale(1)!important;
+}
+
 #mobile-nav ul li a, #mobile-nav ul li {color: var(--white);}
 
 #mobile-nav {

@@ -6,9 +6,13 @@ const Nav = () => {
 
 	const [showMobile, setShowMobile] = useState(false);
 	const [navHide, setNavHide] = useState('hide-nav')
+	const [pathName, setPathName] = useState(window.location.pathname);
 
 	useEffect( () => toTop(), [navHide]);
-
+	
+	// how to re-render to update id
+	useEffect( () => setPathName(window.location.pathname));
+	
 	const toTop = () => window.scrollTo(0, 0);
 
 	const newPage = () => {
@@ -16,7 +20,7 @@ const Nav = () => {
 		setNavHide('hide-nav');
 	}
 
-	const deskLinks = Site.mainPages.map( x => <li key={x.key}><Link to={x.link} onClick={toTop}>{x.name}</Link></li> );
+	const deskLinks = Site.mainPages.map( x => <li key={x.key} id={(pathName === x.link) ? 'nav-page-active' : ''}><Link to={x.link} onClick={toTop}>{x.name}</Link></li> );
 	const mobileLinks = Site.mainPages.map( x => <Link to={x.link} onClick={newPage} key={x.key}><li>{x.name}</li></Link> );
 
 	return (
