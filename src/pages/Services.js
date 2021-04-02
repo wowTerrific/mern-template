@@ -66,7 +66,7 @@ const Services = () => {
 								<GalleryImage src="https://images.unsplash.com/photo-1615377730068-e8235046ff05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="space" className="flex-m-33" />
 								<GalleryImage src="https://images.unsplash.com/photo-1615377730103-d12e4c5d26df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="space" className="flex-m-33" />
 							</FlexContainer>
-						</GalleryContainer>
+						</GalleryContainer>					
 					</Container>
 				</section>
 			</main>

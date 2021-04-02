@@ -93,6 +93,21 @@ section {
 	}
 }
 
+.video {
+	overflow:hidden;
+	padding-bottom:56.25%; 
+	position:relative;
+	height:0;
+}
+.video iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+
 /************** FLEX *********************/
 
 .container {
@@ -247,10 +262,6 @@ nav ul a {
 }
 #desk-nav ul li a:hover::after {
 	transform: scale(1);
-}
-
-#nav-page-active a::after {
-	transform: scale(1)!important;
 }
 
 #mobile-nav ul li a, #mobile-nav ul li {color: var(--white);}

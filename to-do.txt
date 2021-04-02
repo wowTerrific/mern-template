@@ -8,10 +8,6 @@ xx  - Contact Page / Form
 xx  - Add Links to 404 page
 xx  - Create CSS for flex modules
 xx  - sitemap
-    - Nav: Conditional styling with react-router (location.pathname)
-    	- Need to look up
-    - Create Standard Component Library
-	- Video
 
   - Blog Design
   	- Need to look up ideas - Markdown? 
