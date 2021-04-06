@@ -9,10 +9,12 @@ xx  - Add Links to 404 page
 xx  - Create CSS for flex modules
 xx  - sitemap
 
+  - Port over current template to Gatsby
+
   - Blog Design
   	- Need to look up ideas - Markdown? 
-  - Port design over to Gatsby to use as Static template
-  	- add strapi CMS
+
+  - add strapi CMS
 
   - E-Commerce Design
   - Appointment Scheduling Design
