@@ -35,3 +35,4 @@
 .modal-img {
 	width: 100%;
 }
+.modal-img img {max-height: 90vh!important;}
