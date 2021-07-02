@@ -1,14 +1,13 @@
 :root {
-    --black: #000;
-    --white: #fff;
-    --primary: #0cce6b;
-    --secondary: #376996;
-	--accent: #a756ce;
-	
-	--content-width: 1500px;
-	--content-padd: 0 15px;
-	--std-margin: 25px;
-	--std-padding: 15px;
+  --black: #000;
+  --white: #fff;
+  --primary: #0cce6b;
+  --secondary: #376996;
+  --accent: #a756ce;
+  --content-width: 1500px;
+  --content-padd: 0 15px;
+  --std-margin: 25px;
+  --std-padding: 15px;
 }
 
 * {box-sizing: border-box;}
@@ -18,35 +17,35 @@ html {
 }
 
 body {
-    background: var(--white);
-    color: var(--black);
-    font-family: 'Raleway', sans-serif;
+  background: var(--white);
+  color: var(--black);
+  font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cabin', sans-serif;
-	margin-bottom: 20px;
-	position: relative;
-    z-index: 100;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 100;
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 h3, h4, h5, h6 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 p {
-	line-height: 2;
-	margin-bottom: 20px;
+  line-height: 2;
+  margin-bottom: 20px;
 }
 
 section {
-	margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -66,55 +65,55 @@ section {
 
 
 .btn-primary {
-	display: block;
-	width: 100%;
-	max-width: 350px;
-	margin: auto;
-	background: var(--secondary);
-	color: var(--white);
-	border: 3px solid var(--secondary);
-	font-weight: 600;
-	font-size: 1.25rem;
-	transition: 0.2s;
-	cursor: pointer;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+  background: var(--secondary);
+  color: var(--white);
+  border: 3px solid var(--secondary);
+  font-weight: 600;
+  font-size: 1.25rem;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .btn-primary:hover {
-	background: var(--white);
-	color: var(--secondary);
+  background: var(--white);
+  color: var(--secondary);
 }
 
 .txt-center {text-align: center;}
 
 @media only screen and (min-width: 768px) {
-	div.form {
-		border-left: 2px solid #aaa;
-		padding-left: 25px;
-	}
+  div.form {
+    border-left: 2px solid #aaa;
+    padding-left: 25px;
+  }
 }
 
 .video {
-	overflow:hidden;
-	padding-bottom:56.25%; 
-	position:relative;
-	height:0;
+  overflow:hidden;
+  padding-bottom:56.25%; 
+  position:relative;
+  height:0;
 }
 .video iframe{
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 
 /************** FLEX *********************/
 
 .container {
-    width: 100%;
-    max-width: var(--content-width);
-    margin: auto;
-    padding: var(--content-padd);
+  width: 100%;
+  max-width: var(--content-width);
+  margin: auto;
+  padding: var(--content-padd);
 }
 
 .m-t {margin-top: var(--std-margin);}
