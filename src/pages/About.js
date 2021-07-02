@@ -40,7 +40,7 @@ const About = () => {
 							</div>
 							<div className="about-info-sidebar flex-s-33">
 								<div className="about-card">
-									<h4>For your Consideration</h4>
+									<h4>For Your Consideration</h4>
 									<p>Here's a quick blurb on the side-bar</p>
 									<ul>
 										<li><Link to="/services">Check out our services</Link></li>
